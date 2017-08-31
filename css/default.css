@@ -1,0 +1,70 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  margin:0px
+}
+
+.content {
+  margin: 0 auto;
+  background-color: #ececec;
+  width: 100%;
+  max-width: 850px;
+  border-radius: 5px;
+}
+
+.header {
+  min-height: 200px;
+  position: relative;
+  clear: both;
+  background-color: #f5f9fa;
+  padding: 30px 0;
+}
+
+.headerContent{
+  margin: 0 auto;
+  max-width: 850px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.headerLogo{
+
+}
+.headerTitle{
+  padding:0px;
+}
+
+.myTitle{
+    font-size: 36px;
+}
+
+.mySubTitle{
+  font-size: 16px;
+}
+
+.portfolio {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:center;
+}
+
+.portfolioTitle {
+  width: 100%;
+}
+
+.portfolioItem {
+  background-color: #fff;
+  border:1px solid #ccc;
+  padding: 2px;
+  margin: 5px;
+}
+
+.hero{
+    height: 350px;
+    background-color: #555;
+    margin: 10px 0px;
+}
