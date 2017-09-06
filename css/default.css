@@ -1,70 +1,86 @@
-*{
+* {
   box-sizing: border-box;
 }
 
-body{
+body {
   font-family: 'Open Sans', sans-serif;
-  margin:0px
-}
-
-.content {
-  margin: 0 auto;
-  background-color: #ececec;
-  width: 100%;
-  max-width: 850px;
-  border-radius: 5px;
-}
-
-.header {
-  min-height: 200px;
-  position: relative;
-  clear: both;
-  background-color: #f5f9fa;
-  padding: 30px 0;
-}
-
-.headerContent{
+  color: #2d3c49;
   margin: 0 auto;
   max-width: 850px;
-  display: flex;
-  justify-content: space-between;
 }
 
-.headerLogo{
-
-}
-.headerTitle{
-  padding:0px;
+p {
+  margin: 5px 0;
+  line-height: 25px;
 }
 
-.myTitle{
-    font-size: 36px;
+strong {
+  font-weight: bold;
 }
 
-.mySubTitle{
-  font-size: 16px;
-}
 
-.portfolio {
+header {
+  width: auto;
+  max-width: 850px;
+  margin: 0 auto;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  justify-content:center;
 }
 
-.portfolioTitle {
-  width: 100%;
+header img {
+  width: auto;
+  max-width: 200px;
+  border: 1px solid grey;
+  min-height: 250px;
 }
 
-.portfolioItem {
-  background-color: #fff;
-  border:1px solid #ccc;
-  padding: 2px;
-  margin: 5px;
+header h1 {
+  font-size: 48px;
 }
 
-.hero{
-    height: 350px;
-    background-color: #555;
-    margin: 10px 0px;
+header p {
+  font-size: 24px;
+}
+
+.hero {
+
+}
+
+.hero img {
+
+}
+
+main {
+
+}
+
+main section {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+main h2 {
+  display: inline;
+}
+
+main article {
+  width: auto;
+  max-width: 200px;
+}
+
+main article h3 {
+
+}
+
+main article img {
+
+}
+
+
+
+
+
+.hidden {
+  position:absolute;
+  clip:rect(1px, 1px, 1px, 1px);
 }
