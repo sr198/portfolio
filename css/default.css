@@ -16,33 +16,47 @@ strong {
   font-weight: bold;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 
 header {
   width: auto;
-  max-width: 850px;
+  max-width: 900px;
   margin: 0 auto 10px auto;
   display: flex;
   flex-direction: row;
-  margin: 0 auto;
-  max-width: 850px;
 }
 
+.header_logo {
+  max-width: 350px;
+  min-width: 200px;
+  float:left;
+}
 header img {
-  width: auto;
-  max-width: 200px;
-  border: 1px solid grey;
-  min-height: 250px;
-  float: left;
+
 }
 
 header h1 {
   font-size: 48px;
   float:right;
+  margin: 20px 10px 5px 10px;
 }
 
 header p {
   font-size: 24px;
   float: right;
+  margin: 0px;
+}
+
+hr {
+  margin: 20px auto;
+  width: 900px;
+  background-color: #7d97ad;
+  height: 5px;
+  border: none;
 }
 
 .hero {
@@ -52,16 +66,18 @@ header p {
   background-color: #aaa;
   border-radius: 5px;
   margin: 0 auto;
-  max-width: 850px;
+  max-width: 900px;
+  overflow: hidden;
 }
 
 .hero img {
-
+  width: auto;
+  max-width: 900px;
 }
 
 main {
   margin: 0 auto;
-  max-width: 850px;
+  max-width: 900px;
 }
 
 main section {
@@ -76,9 +92,9 @@ main h2 {
 
 main article {
   height: 250px;
-  border: 1px solid #efefef;
-  /*box-shadow: 10px 10px 3px #ccc;*/
-  border-radius: 5px;
+  /*border: 1px solid #efefef;
+  box-shadow: 2px 2px 2px #ccc;
+  border-radius: 5px;*/
   padding: 5px;
   margin: 10px 0;
 }
